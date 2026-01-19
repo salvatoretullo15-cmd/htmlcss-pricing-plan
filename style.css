@@ -1,0 +1,36 @@
+.root{
+    color: #fefefe;
+    color: #000000;
+    color: #6500ff;
+    color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.contenitore{
+    max-height: auto;
+    max-width: 513px;
+    margin: 0 auto;
+}
+
+.container_header{
+    display: flex;
+
+
+}
+
+.plan_basic{
+    width: 512px;
+    display: flex;
+    border:2px solid red;
+}
