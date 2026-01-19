@@ -19,18 +19,18 @@ img{
 
 .contenitore{
     max-height: auto;
-    max-width: 513px;
+    max-width: 512px;
     margin: 0 auto;
+    position:relative
 }
 
-.container_header{
-    display: flex;
-
-
+.contenitore_header{
+    
 }
-
-.plan_basic{
-    width: 512px;
-    display: flex;
-    border:2px solid red;
+    
+.plan_card{
+    
+    .plan_basic
+    {
+    }
 }
