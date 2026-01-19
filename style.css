@@ -21,7 +21,7 @@ img{
     max-height: auto;
     max-width: 512px;
     margin: 0 auto;
-    position:relative
+    font-family:sans-serif;
 }
 
 .contenitore_header{
@@ -32,11 +32,61 @@ img{
 .plan_card{
 }
 .plan_basic, .plan_professional, .plan_ultimate{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
     border:2px solid grey;
-    padding: 2rem ;
+    padding: 1rem ;
     margin-bottom: 2rem;
     margin-top: 2rem;
     background-color: #fefefe;
+    border-radius: 10px;
     max-width: 412px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+
 }
+
+.text_2{
     
+}
+
+.plan_professional{
+    background-color: #6500ff;
+    color: #fefefe;
+}
+
+.choose_1{
+    background-color:#6500ff;
+    border:none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.choose_2{
+    background-color:#fefefe;
+    border:none;
+    color:#6500ff;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.beneficts{
+    list-style: none;
+    padding-top: 1rem;
+   
+    li{
+        padding:0.5rem;
+        padding-right: 7rem;
+        margin:1rem;
+    }
+    
+    .bi{
+        padding: 0.5rem;
+        
+    }
+}
