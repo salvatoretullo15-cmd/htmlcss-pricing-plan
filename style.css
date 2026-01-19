@@ -25,29 +25,98 @@ img{
 }
 
 .contenitore_header{
-    
-}
-    
+    padding-left: 3rem;
+    position: relative;
 
-.plan_card{
 }
+
+.title{
+    font-size:xx-large;
+}
+
+.text_1{
+    font-size:small;
+    color:rgba(128, 128, 128, 0.884)
+}
+
+.switch{
+   font-size: small;
+   color: grey;
+   padding-left: 20rem;
+   padding-top: 1.5rem;
+   padding-bottom: 1rem;
+}
+
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+
+
 .plan_basic, .plan_professional, .plan_ultimate{
     display: flex;
     justify-content: start;
     flex-direction: column;
-    border:2px solid grey;
     padding: 1rem ;
     margin-bottom: 2rem;
     margin-top: 2rem;
     background-color: #fefefe;
     border-radius: 10px;
     max-width: 412px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(201, 195, 195, 0.452);
 
 }
 
-.text_2{
-    
+.text_{
+   margin:2rem;
+   margin-top:1rem; 
+}
+
+.price{
+    font-size:xxx-large;
+    margin: 3rem;
+    padding-left: 1rem;
+}
+
+.sconto{
+    padding-left: 7rem;
+    font-size:small;
+}
+
+.sfocato{
+    color: grey;
+    font-size: small;
+}
+
+.sfocato_2{
+    color: white;
+    font-size: small;
 }
 
 .plan_professional{
@@ -60,7 +129,6 @@ img{
     border:none;
     color: #ffffff;
     padding: 1rem;
-    margin-top: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -70,7 +138,6 @@ img{
     border:none;
     color:#6500ff;
     padding: 1rem;
-    margin-top: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -87,6 +154,7 @@ img{
     
     .bi{
         padding: 0.5rem;
+        font-size: x-large;
         
     }
 }
