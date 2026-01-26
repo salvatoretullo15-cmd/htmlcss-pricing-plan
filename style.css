@@ -11,128 +11,110 @@
     box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 50%;
-}
-
-.contenitore{
-    max-height: auto;
-    max-width: 512px;
+.container{
+    max-width: 900px;
     margin: 0 auto;
-    font-family:sans-serif;
 }
 
-.contenitore_header{
-    padding-left: 3rem;
-    position: relative;
-
-}
-
-.title{
-    font-size:xx-large;
-}
-
-.text_1{
-    font-size:small;
-    color:rgba(128, 128, 128, 0.884)
-}
-
-.switch{
-   font-size: small;
-   color: grey;
-   padding-left: 20rem;
-   padding-top: 1.5rem;
-   padding-bottom: 1rem;
-}
-
-/*.switch input{
-    opacity: ;
-    width: ;
-    height: ;
-}*/
-
-
-.plan_basic, .plan_professional, .plan_ultimate{
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    padding: 1rem ;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    background-color: #fefefe;
-    border-radius: 10px;
-    max-width: 412px;
-    box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(201, 195, 195, 0.452);
-
-}
-
-.text_{
-   margin:2rem;
-   margin-top:1rem; 
-}
-
-.price{
-    font-size:xxx-large;
-    margin: 3rem;
-    padding-left: 1rem;
-}
-
-.sconto{
-    padding-left: 7rem;
-    font-size:small;
-}
-
-.sfocato{
-    color: grey;
-    font-size: small;
-}
-
-.sfocato_2{
-    color: white;
-    font-size: small;
-}
-
-.plan_professional{
-    background-color: #6500ff;
-    color: #fefefe;
-}
-
-.choose_1{
-    background-color:#6500ff;
-    border:none;
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.choose_2{
-    background-color:#fefefe;
-    border:none;
-    border-radius: 10px;
-    font-weight: 700;
-    color:#6500ff;
-    padding: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.beneficts{
-    list-style: none;
-    padding-top: 1rem;
-   
-    li{
-        padding:0.5rem;
-        padding-right: 7rem;
-        margin:1rem;
-    }
+.body{
     
-    .bi{
-        padding: 0.5rem;
-        font-size: x-large;
-        
+}
+
+#prices_togglers{
+    text-align: end;
+    
+    button{
+        border-style: none;
+        background-color: transparent;
+        font-size: 1.15rem;
+        color: grey;
+    
+        i{
+            font-size: 1.5rem;
+        }
     }
+}
+
+.plans{
+    padding: 1rem;
+    p{
+        color:gray
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+.text{
+    color: gray;
+}
+
+.badge{
+    background-color: gray;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    display:block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.btn-lg{
+    padding: 1.5rem 2rem;
+    font-size: 1.25rem;
+}
+
+.list-unstyled{
+    list-style: none;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+}
+
+.btn_primary{
+    background-color: #6500ff;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.card{
+    background-color: #fefefe;
+    box-shadow: 0 0 10px gray;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h2{
+       font-size: 1.75rem; 
+    }
+
+    .plan_price{
+       text-align: center; 
+
+       .currency{
+        font-size: 1.5rem;
+        font-weight: bold;
+       }
+
+       .price{
+        font-size: 4rem;
+        font-weight: bolder;
+       }
+
+    }
+
+    .discount{
+        margin-top: 2rem 0;
+    }
+
+    .plan_features{
+        margin-top: 2rem;
+        line-height: 2.5rem;
+        font-size: 1.25rem;
+    }
+
 }

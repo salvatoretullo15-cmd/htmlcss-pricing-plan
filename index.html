@@ -8,88 +8,113 @@
     
     <title>Document</title>
 </head>
-<body class="contenitore"> 
-    
-
-        <header class="contenitore_header">
-            <h1 class="title">Our Pricing Plan</h1>
-                <div class="text_1">
-                    <p>We are an industry-leading company that values
-                    honestly,<br>integrity and efficiency,
-                    bulding quality products.
-                    </p>
-                </div>
-            <div class="switch">
-                <label class="monthly">Monthly
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-            
-                <label class="yearly">Yearly
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
+<body>
+    <section class="plans">
+        <header class="container">
+            <h1>Our Pricing Plan</h1>
+            <p>we are an industry-leading company that values honestly,<br>
+            integrity and efficiency, building quality products.
+            </p>
+            <div id="prices_togglers">
+                <button>
+                    <span>Monthly</span>
+                    <i class="bi bi-toggle-on"></i>
+                </button>
+                <button>
+                    <span>Yearly</span>
+                    <i class="bi bi-toggle-off"></i>
+                </button>
             </div>
         </header>
-        
-        <main>
-            <div class="plan_card">
-             <div class="plan_basic">
-                <div class="text_">
-                        <h2>Basic</h2>
-                        <p class="sfocato">Most Popular</p>
-                        <p class="price">$2.45/mo</p>
-                        <p class="sconto">yearly 15% Off</p>
-                </div>   
-                        <button class="choose_1">Choose plan</button>
-                <ul class="beneficts">
-                    <li><i class="bi bi-check-lg"></i>Unlimited Products</li>
-                    <li><i class="bi bi-check-lg"></i>Custom Permission</li>
-                    <li><i class="bi bi-check-lg"></i>Custom Infrastructure</li>
-                    <li><i class="bi bi-x-lg"></i>Custom Design & features</li>
-                    <li><i class="bi bi-x-lg"></i>Unlimited updates</li>
-                    <li><i class="bi bi-x-lg"></i>Unlimited infrastructure</li>
-                </ul>
-             </div>
-             <div class="plan_professional">
-                <div class="text_">
-                        <h2>Professional</h2>
-                        <span class="sfocato_2">Reccomended</span>
-                        <p class="price">$4.45/mo</p>
-                        <p class="sconto">yearly 15% Off</p>
+    </section>
+    <main>
+        <div class="card-deck">
+            <div class="card">
+                <div class="plan_details">
+                    <h2>Basic</h2>
+                    <div class="text">Most popular</div>
+                    <div class="plan_price">
+                        <div><span class="currency">&dollar;</span>
+                            <span class="price">2.45</span>
+                            <span class="text">/mo</span>
+                        </div>
+                        <div class="discount">
+                            <span>Yearly</span>
+                            <span class="badge">15% Off</span>
+                        </div>
+                    </div>
+                        <button class="btn btn_primary btn-lg">choose plan</button>
                 </div>
-                        <button class="choose_2">Choose plan</button>
-                 <ul class="beneficts">
-                     <li><i class="bi bi-check-lg"></i>Products</li>
-                     <li><i class="bi bi-check-lg"></i>Custom Permission</li>
-                     <li><i class="bi bi-check-lg"></i>Custom Infrastructure</li>
-                     <li><i class="bi bi-check-lg"></i>Custom Design & features</li>
-                     <li><i class="bi bi-x-lg"></i>Unlimited updates</li>
-                     <li><i class="bi bi-x-lg"></i>Unlimited infrastructure</li>
-                 </ul>
-             </div>
-             <div class="plan_ultimate">
-                <div class="text_">
-                        <h2>Ultimate</h2>
-                        <span class="sfocato">Best value</span>
-                        <p class="price">$12.45/mo</p>
-                        <p class="sconto">yearly 15% Off</p> 
+                <div class="plan_features">
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-lg">Unlimited Products</i></li>
+                        <li><i class="bi bi-check-lg">Custom Permissions</i></li>
+                        <li><i class="bi bi-check-lg">Custom Infrastructure</i></li>
+                        <li><i class="bi bi-x-lg">Custom Design & features</i></li>
+                        <li><i class="bi bi-x-lg">Unlimited updates</i></li>
+                        <li><i class="bi bi-x-lg">Unlimited Infrastructure</i></li>
+                    </ul>
                 </div>
-                        <button class="choose_1">Choose plan</button>
-                 <ul class="beneficts">
-                     <li><i class="bi bi-check-lg"></i>Unlimited Products</li>
-                     <li><i class="bi bi-check-lg"></i>Custom Permission</li>
-                     <li><i class="bi bi-check-lg"></i>Custom Infrastructure</li>
-                     <li><i class="bi bi-check-lg"></i>Custom Design & features</li>
-                     <li><i class="bi bi-check-lg"></i>Unlimited updates</li>
-                     <li><i class="bi bi-check-lg"></i>Unlimited infrastructure</li>
-                 </ul>
-             </div>
             </div>
+            <div class="card">
+                <div class="plan_details">
+                    <h2>Professional</h2>
+                    <div class="text">Reccomended</div>
+                    <div class="plan_price">
+                        <div><span class="currency">&dollar;</span>
+                            <span class="price">4.45</span>
+                            <span class="text">/mo</span>
+                        </div>
+                        <div class="discount">
+                            <span>Yearly</span>
+                            <span class="badge">15% Off</span>
+                        </div>
+                    </div>
+                        <button class="btn btn_primary btn-lg">choose plan</button>
+                </div>
+                <div class="plan_features">
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-lg">Unlimited Products</i></li>
+                        <li><i class="bi bi-check-lg">Custom Permissions</i></li>
+                        <li><i class="bi bi-check-lg">Custom Infrastructure</i></li>
+                        <li><i class="bi bi-check-lg">Custom Design & features</i></li>
+                        <li><i class="bi bi-x-lg">Unlimited updates</i></li>
+                        <li><i class="bi bi-x-lg">Unlimited Infrastructure</i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="plan_details">
+                    <h2>Ultimate</h2>
+                    <div class="text">Best value</div>
+                    <div class="plan_price">
+                        <div><span class="currency">&dollar;</span>
+                            <span class="price">12.45</span>
+                            <span class="text">/mo</span>
+                        </div>
+                        <div class="discount">
+                            <span>Yearly</span>
+                            <span class="badge">15% Off</span>
+                        </div>
+                    </div>
+                        <button class="btn btn_primary btn-lg">choose plan</button>
+                </div>
+                <div class="plan_features">
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-lg">Unlimited Products</i></li>
+                        <li><i class="bi bi-check-lg">Custom Permissions</i></li>
+                        <li><i class="bi bi-check-lg">Custom Infrastructure</i></li>
+                        <li><i class="bi bi-check-lg">Custom Design & features</i></li>
+                        <li><i class="bi bi-check-lg">Unlimited updates</i></li>
+                        <li><i class="bi bi-check-lg">Unlimited Infrastructure</i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
+    </main>
+    <footer>
 
-
-        </main>
-    
+    </footer>
 </body>
 </html>
