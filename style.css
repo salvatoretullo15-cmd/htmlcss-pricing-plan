@@ -16,41 +16,12 @@
     margin: 0 auto;
 }
 
-.body{
-    
-}
-
-#prices_togglers{
-    text-align: end;
-    
-    button{
-        border-style: none;
-        background-color: transparent;
-        font-size: 1.15rem;
-        color: grey;
-    
-        i{
-            font-size: 1.5rem;
-        }
-    }
-}
-
-.plans{
-    padding: 1rem;
-    p{
-        color:gray
-    }
-    h1{
-        font-size: 2.5rem;
-    }
-}
-
 .text{
     color: gray;
 }
 
 .badge{
-    background-color: gray;
+    background-color: rgb(219, 214, 214);
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
@@ -80,6 +51,38 @@
     color: #ffffff;
 }
 
+.body{
+    
+}
+
+#prices_togglers{
+    text-align: end;
+    
+    button{
+        border-style: none;
+        background-color: transparent;
+        font-size: 1.15rem;
+        color: grey;
+    
+        i{
+            font-size: 1.5rem;
+        }
+    }
+}
+.bi-toggle-on{
+    color: black;
+}
+
+.plans{
+    padding: 1rem;
+    p{
+        color:gray
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
 .card{
     background-color: #fefefe;
     box-shadow: 0 0 10px gray;
@@ -87,6 +90,7 @@
     padding: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 2rem;
 
     h2{
        font-size: 1.75rem; 
@@ -117,4 +121,22 @@
         font-size: 1.25rem;
     }
 
+}
+
+.card:nth-child(2){
+    background-color: #6500ff;
+    color: #ffffff;
+    
+    .badge{
+        color: black;
+    }
+    
+    .text{
+        color: #ffffff;
+    }
+    
+    .btn_primary{
+        background-color: #ffffff;
+        color: #6500ff;
+    }
 }
